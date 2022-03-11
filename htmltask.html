@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Html task </title>
+<style type="text/css">
+	body{
+		background: #000033;
+	}
+	.container{
+		display: flex;
+	}
+	.sidemenu{
+		width: 15%;
+		height: 100%;
+	}
+	.maincontent{
+		width: 85%;
+		height: 100%;
+		flex-wrap: wrap;
+		margin-bottom: ;
+	}
+	.side{
+		color: white;
+		font-size: 20px;
+		margin: 20%;
+	}
+	input{
+		float: right;
+		background: #000033;
+		border: 1px solid white;
+		border-radius: 5px;
+		height: 30px;
+		width: 250px;
+		font-size: 20px;
+	}
+	p{
+		color: #9933ff;
+		font-size: 20px;
+		margin-top: 50px;
+	}
+	.rowcontent{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 10px;
+
+	}
+	.head{
+		font-size: 15px;
+		color: white;
+		flex: 20%;
+		}
+	.rowelement{
+		font-size: 14px;
+		color: white;
+		flex: 20%;
+	}
+	.row{
+		display: flex;
+		flex-direction: row;
+		margin-top: 20px;
+		background: #00004d;
+		height: 40px;
+		align-items: center;
+		border-left: 4px solid #9933ff;
+		
+
+	}
+	button{
+		background: #9933ff;
+		border-radius: 5px;
+		height: 25px;
+		width: 80px;
+		border: #9933ff;
+	}
+	.search{
+		margin-bottom: 50px;
+	}
+	.fa-solid{
+		margin-right: 5px;
+	}
+</style>
+<script src="https://kit.fontawesome.com/20970bce23.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="sidemenu">
+			<img src="knight.png" height="15%" width="100%">
+			<div class="side"><i class="fa-solid fa-users"></i>All users</div>
+			<div class="side"><i class="fa-solid fa-bell"></i>Notification</div>
+			<div class="side"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</div>
+		</div>
+		<div class="maincontent">
+			<div class="search">
+				<input type="text" name="email" placeholder="search by email">
+				<p> All users </p>
+			</div>
+			<div class="rowcontent">
+				<div class="head">Name</div>
+				<div class="head">Email</div>
+				<div class="head">Created on</div>
+				<div class="head">Send Notification</div>
+				<div class="head">Action</div>
+			</div>
+			<div class="row">
+				<div class="rowelement">1.Yuvaraj</div>
+				<div class="rowelement">yuva9611@gmail.com</div>
+				<div class="rowelement">10-03-2022 04:00am</div>
+				<div class="rowelement">
+					<button>send</button>
+				</div>
+				<div class="rowelement">
+					<button>view</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="rowelement">2.Austin</div>
+				<div class="rowelement">austin@gmail.com</div>
+				<div class="rowelement">10-03-2022 03:00am</div>
+				<div class="rowelement">
+					<button>send</button>
+				</div>
+				<div class="rowelement">
+					<button>view</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="rowelement">3.Maxwell</div>
+				<div class="rowelement">maxwell@gmail.com</div>
+				<div class="rowelement">10-03-2022 02:00am</div>
+				<div class="rowelement">
+					<button>send</button>
+				</div>
+				<div class="rowelement">
+					<button>view</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="rowelement">4.janet</div>
+				<div class="rowelement">janet@gmail.com</div>
+				<div class="rowelement">10-03-2022 06:00am</div>
+				<div class="rowelement">
+					<button>send</button>
+				</div>
+				<div class="rowelement">
+					<button>view</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="rowelement">5.jayson</div>
+				<div class="rowelement">jayson@gmail.com</div>
+				<div class="rowelement">10-03-2022 10:00am</div>
+				<div class="rowelement">
+					<button>send</button>
+				</div>
+				<div class="rowelement">
+					<button>view</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="rowelement">6.Daniel</div>
+				<div class="rowelement">daniel@gmail.com</div>
+				<div class="rowelement">10-03-2022 12:00am</div>
+				<div class="rowelement">
+					<button>send</button>
+				</div>
+				<div class="rowelement">
+					<button>view</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="rowelement">7.Robert Burns</div>
+				<div class="rowelement">robert@gmail.com</div>
+				<div class="rowelement">10-03-2022 03:00am</div>
+				<div class="rowelement">
+					<button>send</button>
+				</div>
+				<div class="rowelement">
+					<button>view</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="rowelement">8.Dangerussdi</div>
+				<div class="rowelement">danger@gmail.com</div>
+				<div class="rowelement">10-03-2022 11:00am</div>
+				<div class="rowelement">
+					<button>send</button>
+				</div>
+				<div class="rowelement">
+					<button>view</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="rowelement">9.2e</div>
+				<div class="rowelement">2e@gmail.com</div>
+				<div class="rowelement">10-03-2022 02:00am</div>
+				<div class="rowelement">
+					<button>send</button>
+				</div>
+				<div class="rowelement">
+					<button>view</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
